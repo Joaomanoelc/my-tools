@@ -1,3 +1,7 @@
 # my-tools
 
-*Criando um arquivo de instalacao*
+1 - Instalar Ansible
+
+*2 - Clonar o repositorio*
+
+3 - Executar o playbook
