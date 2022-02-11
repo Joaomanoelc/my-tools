@@ -10,10 +10,11 @@
         install_recommends: yes
         state: present
       loop:
-        - vim
-        - curl
-        - wget
-        - virtualbox
+          - virtualbox
+          - vim
+          - curl
+          - wget
+
     - block:
         - name: Installing Vagrant 2.2.19
           become: true
@@ -43,8 +44,8 @@
             cmd: code --install-extension '{{ item }}'
           loop:
             - redhat.vscode-yaml
-            - ms-python.python
             - bbenoist.vagrant
             - hashicorp.terraform
-            - njpwerner.autodocstring
+            - foxundermoon.shell-format
             - eamodio.gitlens
+            - pkief.material-icon-theme
