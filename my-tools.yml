@@ -1,6 +1,6 @@
 ---
 - name: Preparing Workstation
-  hosts: localhost
+  hosts: localhost2
   connection: local
   tasks:
     - name: Installing Linux Apps
